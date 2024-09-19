@@ -58,6 +58,7 @@ public class JFLogin extends javax.swing.JFrame {
         jLabel2.setText("Senha");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 230, 100, 60));
 
+        jTextFieldUsuario.setText("melody123");
         jTextFieldUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldUsuarioActionPerformed(evt);
@@ -72,6 +73,7 @@ public class JFLogin extends javax.swing.JFrame {
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/p2.png"))); // NOI18N
         jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 10, 160, -1));
 
+        jPasswordFieldSenha.setText("22");
         jPasswordFieldSenha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jPasswordFieldSenhaActionPerformed(evt);
@@ -110,7 +112,7 @@ public class JFLogin extends javax.swing.JFrame {
         String usuario = jTextFieldUsuario.getText();
         String senha = jPasswordFieldSenha.getText();
         if (usuario.equals("melody123")&&
-                senha.equals("335522")){
+                senha.equals("22")){
             Main main = new Main();
             main.setExtendedState(JFrame.MAXIMIZED_BOTH);
             main.setVisible(true);
