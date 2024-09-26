@@ -26,7 +26,6 @@ public class Main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
         jToolBar1 = new javax.swing.JToolBar();
         jButton2 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
@@ -45,13 +44,10 @@ public class Main extends javax.swing.JFrame {
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/Aviso volta as aulas escola ilustração 3d roxo branco instagram story.png"))); // NOI18N
-        jLabel1.setText("jLabel1");
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jToolBar1.setBackground(new java.awt.Color(51, 153, 255));
+        jToolBar1.setBackground(new java.awt.Color(0, 102, 51));
         jToolBar1.setRollover(true);
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/p3.png"))); // NOI18N
@@ -108,10 +104,10 @@ public class Main extends javax.swing.JFrame {
         jButton7.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton7);
 
-        getContentPane().add(jToolBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 80));
+        getContentPane().add(jToolBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 770, 80));
 
-        jLabel2.setText("jLabel2");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 160, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/Por Reforço Escolar matriculas verde_1.jpg"))); // NOI18N
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 770, 700));
 
         jMenu1.setText("Arquivo");
 
@@ -189,7 +185,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;

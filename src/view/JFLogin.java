@@ -31,17 +31,20 @@ public class JFLogin extends javax.swing.JFrame {
 
         jLabel4 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jTextFieldUsuario = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         jPasswordFieldSenha = new javax.swing.JPasswordField();
         jbuttonentrar = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
 
         jLabel4.setText("jLabel4");
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/p2.png"))); // NOI18N
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Autênticação");
@@ -70,9 +73,6 @@ public class JFLogin extends javax.swing.JFrame {
         jLabel1.setText("Usuário");
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 170, 170, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/p2.png"))); // NOI18N
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 10, 160, -1));
-
         jPasswordFieldSenha.setText("22");
         jPasswordFieldSenha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,6 +88,9 @@ public class JFLogin extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jbuttonentrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 320, -1, -1));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/p2.png"))); // NOI18N
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 0, -1, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 0, 510, 360));
 
@@ -166,6 +169,7 @@ public class JFLogin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
