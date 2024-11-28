@@ -147,7 +147,13 @@ public class Main extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+  JDALuno jdAlunos = new JDALuno(this, false);
+        try{
+            jdAlunos.setModal(true);
+            jdAlunos.setVisible(true);
+        }finally{
+            jdAlunos.dispose();            
+        }        // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
